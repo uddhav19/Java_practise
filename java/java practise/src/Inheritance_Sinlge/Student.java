@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance_Sinlge;
 
 import java.util.Scanner;
 

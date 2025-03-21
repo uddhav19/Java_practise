@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance_Sinlge;
 
 public class Result extends Student{
     int math, sci, che, total;

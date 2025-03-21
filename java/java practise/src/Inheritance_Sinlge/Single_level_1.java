@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance_Sinlge;
 
 public class Single_level_1 extends  single_level{
     void display(){
