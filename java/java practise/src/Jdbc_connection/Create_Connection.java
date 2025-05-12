@@ -1,9 +1,5 @@
 package Jdbc_connection;
-
-import java.sql.Connection;
-import java.sql.Driver;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class Create_Connection {
     public static Connection createconnection() throws ClassNotFoundException, SQLException {
@@ -14,8 +10,22 @@ public class Create_Connection {
         return con;
 
     }
+
+    public void createtable() throws SQLException, ClassNotFoundException {
+        Connection con=Create_Connection.createconnection();
+        Statement s = con.createStatement();
+        boolean status=s.execute("create table stud(id int, name varchar(200), city varchar(200))");
+        if (status==true){
+            System.out.println("table not created");
+        }else {
+            System.out.println("table created");
+        }
+        con.close();
+    }
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        createconnection();
+
+        Create_Connection obj = new Create_Connection();
+        obj.createtable();
 
     }
 }
