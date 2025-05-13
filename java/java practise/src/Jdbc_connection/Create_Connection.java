@@ -94,6 +94,20 @@ public class Create_Connection {
         }
 
     }
+
+    //preparedstatement-delete data
+    public  void deletedata1() throws SQLException, ClassNotFoundException {
+        Connection con=Create_Connection.createconnection();
+        PreparedStatement p = con.prepareStatement("delete from stud where id=?");
+        p.setInt(1,2);
+        int status=p.executeUpdate();
+        if(status==1){
+            System.out.println("data deleted");
+        }else {
+            System.out.println("data not deleted");
+        }
+
+    }
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
 
         Create_Connection obj = new Create_Connection();
@@ -101,7 +115,8 @@ public class Create_Connection {
        // obj.savedata();
         //obj.getsingledata();
         //obj.getAlldata();
-        obj.deletedata();
+        //obj.deletedata();
+        obj.deletedata1();
 
     }
 }
