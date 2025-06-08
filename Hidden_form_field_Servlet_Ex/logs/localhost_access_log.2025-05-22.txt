@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [22/May/2025:19:34:23 +0530] "GET /Session_tracking_Servlet_Ex HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/May/2025:19:34:23 +0530] "GET /Session_tracking_Servlet_Ex/ HTTP/1.1" 200 250
+0:0:0:0:0:0:0:1 - - [22/May/2025:19:34:23 +0530] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [22/May/2025:19:34:32 +0530] "GET /Session_tracking_Servlet_Ex/servlet1?uname=uddhav HTTP/1.1" 200 125
+0:0:0:0:0:0:0:1 - - [22/May/2025:19:34:34 +0530] "GET /Session_tracking_Servlet_Ex/servlet2?name=uddhav HTTP/1.1" 200 11

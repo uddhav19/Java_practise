@@ -1,0 +1,38 @@
+22-May-2025 19:34:17.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+22-May-2025 19:34:17.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+22-May-2025 19:34:17.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+22-May-2025 19:34:17.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-May-2025 19:34:17.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-May-2025 19:34:17.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-May-2025 19:34:17.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+22-May-2025 19:34:17.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-239
+22-May-2025 19:34:17.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-May-2025 19:34:17.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\uddha\OneDrive\Desktop\dsa\profound java\Hidden_form_field_Servlet_Ex
+22-May-2025 19:34:17.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Full_stack_java\apache-tomcat-11.0.5
+22-May-2025 19:34:17.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-May-2025 19:34:17.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-May-2025 19:34:17.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-May-2025 19:34:17.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-May-2025 19:34:17.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-May-2025 19:34:17.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Full_stack_java\apache-tomcat-11.0.5
+22-May-2025 19:34:17.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\uddha\OneDrive\Desktop\dsa\profound java\Hidden_form_field_Servlet_Ex
+22-May-2025 19:34:17.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\uddha\OneDrive\Desktop\dsa\profound java\Hidden_form_field_Servlet_Ex\temp
+22-May-2025 19:34:17.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\uddha\OneDrive\Desktop\dsa\profound java\Hidden_form_field_Servlet_Ex\conf\logging.properties
+22-May-2025 19:34:17.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-May-2025 19:34:17.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2\lib\idea_rt.jar=54948:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2\bin
+22-May-2025 19:34:17.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+22-May-2025 19:34:17.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+22-May-2025 19:34:17.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+22-May-2025 19:34:17.333 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Oracle\app\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\MinGW\bin;C:\TDM-GCC-32\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21\bin;C:\Users\uddha\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\uddha\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\uddha\AppData\Local\Microsoft\WindowsApps;;C:\Users\uddha\AppData\Local\Programs\Microsoft VS Code\bin;.]
+22-May-2025 19:34:17.908 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-May-2025 19:34:17.940 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1126] milliseconds
+22-May-2025 19:34:18.027 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-May-2025 19:34:18.028 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+22-May-2025 19:34:18.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\uddha\OneDrive\Desktop\dsa\profound java\Hidden_form_field_Servlet_Ex\conf\Catalina\localhost\Session_tracking_Servlet_Ex.xml]
+22-May-2025 19:34:18.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\uddha\OneDrive\Desktop\dsa\profound java\Hidden_form_field_Servlet_Ex\conf\Catalina\localhost\Session_tracking_Servlet_Ex.xml] has finished in [713] ms
+22-May-2025 19:34:18.768 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-May-2025 19:34:18.817 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [875] milliseconds
+22-May-2025 19:34:48.138 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-May-2025 19:34:48.146 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-May-2025 19:34:48.178 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-May-2025 19:34:48.198 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
