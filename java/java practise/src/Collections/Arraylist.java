@@ -24,5 +24,16 @@ public class Arraylist {
 
         list.addAll(newlist);
         System.out.println(list);
+        System.out.println(list.get(1));
+
+        list.remove(4);
+        System.out.println(list);
+
+        list.remove(Integer.valueOf(6));
+
+        list.clear();
+        System.out.println(list);
+
+
     }
 }
