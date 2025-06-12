@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Arraylist {
@@ -35,5 +36,31 @@ public class Arraylist {
         System.out.println(list);
 
 
+        List<Integer> newlist2 = new ArrayList<>();
+        newlist2.add(34);
+        newlist2.add(36);
+        newlist2.add(37);
+        newlist2.add(32);
+        newlist2.add(38);
+        newlist2.add(31);
+        newlist2.add(30);
+        newlist2.add(12);
+        newlist2.add(23);
+
+        for (int i = 0; i < newlist2.size(); i++) {
+            System.out.println(newlist2.get(i));
+
+        }
+        System.out.println("by for each");
+        for(Integer element:newlist2){
+            System.out.println(element);
+
+        }
+
+       //Iterator
+        Iterator<Integer> it = newlist2.iterator();
+        while (it.hasNext()){
+            System.out.println("iterator"+ it.next());
+        }
     }
 }
