@@ -5,4 +5,6 @@ public interface Myinterface {
 
     int operation(int a, int b);
 
+
+
 }
