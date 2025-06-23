@@ -10,6 +10,11 @@ public class Stream1 {
         Stream<String> stream = list.stream();     ///alt+enter - to introduce local variable
         System.out.println(stream);
 
-        String[] Array = {"apple, "};
+        String[] Array = {"apple","mango","cherry"};
+        Stream<String> stream1 = Arrays.stream(Array);
+
+        Stream<Integer> integerStream = Stream.of(1,2,3,4);
+
+        Stream.iterate(0, n -> n + 1).limit(100);
     }
 }

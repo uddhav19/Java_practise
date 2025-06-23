@@ -17,10 +17,10 @@ public class Streams {
 
 
         //using streams
-        int sum = Arrays.stream(arr)  // Create stream from int array
+        int sum1 = Arrays.stream(arr)  // Create stream from int array
                 .filter(n -> n% 2==0)  // Keep only even numbers
                 .sum();  // Sum them
-        System.out.println(sum);
+        System.out.println(sum1);
 
     }
 }
