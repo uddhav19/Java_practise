@@ -1,0 +1,30 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Hibernate_mapping</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">Redmi@8265</property>
+
+        <!-- JDBC connection pool -->
+        <property name="connection.pool_size">5</property>
+
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <!-- Enable Hibernate's SQL output -->
+        <property name="show_sql">true</property>
+
+        <!-- Automatically create/drop tables -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- Mapping class -->
+        <mapping class="org.example.Emploee"/>
+        <mapping class="org.example.Product"/>
+    </session-factory>
+</hibernate-configuration>
