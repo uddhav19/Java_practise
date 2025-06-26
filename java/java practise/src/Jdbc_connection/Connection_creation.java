@@ -11,6 +11,8 @@ public class Connection_creation {
         String user = "root";
         String password = "Redmi@8265";
 
+
+
         Connection con= null;
         Statement statement = null;
         con= DriverManager.getConnection(url,user,password);
