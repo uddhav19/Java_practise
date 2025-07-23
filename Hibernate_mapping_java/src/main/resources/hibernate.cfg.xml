@@ -31,8 +31,7 @@
         <property name="hbm2ddl.auto">update</property>
 
         <!-- Mapping class -->
-        <mapping class="org.example.Student"/>
-        <mapping class="org.example.Course"/>
+        <mapping class="org.example.Crud_operation.Student"/>
 
     </session-factory>
 </hibernate-configuration>

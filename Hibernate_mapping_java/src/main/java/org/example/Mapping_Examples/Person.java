@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Mapping_Examples;
 
 
 import jakarta.persistence.*;
