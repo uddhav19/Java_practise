@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 
 import java.util.List;
 
-public class Main {
+public class Main_Fromquery {
     public static void main(String[] args) {
         Configuration cfg = new Configuration().configure("hibernate.cfg.xml");
 
